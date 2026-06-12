@@ -1,3 +1,4 @@
+token;pos;vide;comm
 -t-;EUPH
 a;AUX|VB
 à;PREP
@@ -5,7 +6,7 @@ après;PREP
 au;PREP+DET
 ce;DET
 contre;PREP;; par contre
-côté#à côté de
+côté;PREP;;#à côté de
 d’;DET|PREP
 dans;PREP;;#|NOM interdit : troisième dan de karaté
 de;PREP|DET
