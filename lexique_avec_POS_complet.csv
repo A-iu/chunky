@@ -2,37 +2,13 @@
 a;AUX|VB
 à;PREP
 après;PREP
-Arabica
-artistes
-Aryenica
-Assemblée
 au;PREP+DET
-autres
-avait
-avoir
-base
-bien
-bienveillants
-blanche
-bloggeuse
-bois
-budgétaire
-cabale
-café
 ce;DET
-certainement
-cloche
-cofondateur
-commente
-contexte
-continuer
-contre;PREP #par contre
+contre;PREP;;par contre
 côté#à côté de
-couleur
-créneau
 d’;DET|PREP
 dans;PREP;;#|NOM interdit : troisième dan de karaté
-de;
+de;PREP|DZT
 déclaré
 définitivement
 déjà
@@ -92,7 +68,7 @@ n’
 ne
 noir
 notons
-notre;DET|PRO;;#mais pas que non plus
+notre;DET|PRO;;mais pas que non plus
 nouvelle
 Omo
 on;PRO
@@ -154,7 +130,7 @@ Trans
 transgenres
 trouver
 un;DET
-une;DET;; #|nom la une d'un journal
+une;DET;;|NOM la une d'un journal
 vient
 visant
 vivement
