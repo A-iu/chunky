@@ -1,6 +1,10 @@
 # Recette de cuisine
+## Étape 0 : on bosse Unix for poets
+https://www.cs.upc.edu/~padro/Unixforpoets.pdf
 
 ## Étape 1 : on a viré les maj de début de phrase
+- à la main !
+texte_base.txt => texte_sans_ponctuation
 
 ## Étape 2 : on fait la liste des chunks
 - on vire les virgules, les guillemets, les points
