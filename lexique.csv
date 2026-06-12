@@ -1,5 +1,5 @@
--t-;
-a;
+-t-;EUPH
+a;AUX|VB
 à;PREP
 après;PREP
 Arabica
@@ -31,7 +31,7 @@ côté#à côté de
 couleur
 créneau
 d’;DET|PREP
-dans;PREP#|NOM interdit : troisième dan de karaté
+dans;PREP;;#|NOM interdit : troisième dan de karaté
 de;
 déclaré
 définitivement
@@ -47,7 +47,7 @@ désormais
 dont;CONJ
 Draye
 du;DET|PREP
-en;PREP#|ADV interdit 
+en;PREP;;#|ADV interdit 
 ensemble
 est
 et;CONJ
@@ -92,7 +92,7 @@ n’
 ne
 noir
 notons
-notre;DET #mais pas que non plus
+notre;DET|PRO;;#mais pas que non plus
 nouvelle
 Omo
 on;PRO
@@ -114,7 +114,7 @@ puisqu’;CONJ
 puisse
 purement
 qu’;PRO
-quant;CONJ #quant à
+quant;CONJ;;quant à
 que;PRO
 qui;PRO
 quoi;PRO
@@ -147,14 +147,14 @@ subventions
 supprimer
 suprémaciste
 sur;PREP
-tant #tant que
+tant;CONJ;;|ADV dans tant que
 temps
 torréfiés
 Trans
 transgenres
 trouver
 un;DET
-une;DET #|nom la une d'un journal
+une;DET;; #|nom la une d'un journal
 vient
 visant
 vivement
