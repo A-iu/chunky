@@ -20,27 +20,31 @@ for line in fileinput.input():
     line=line.replace("’","’ ")
     line=line.replace("."," .")
     line=line.replace(","," ,")
+    line=line.replace("-t-"," -t- ")
     res=re.split(r"\s+",line)
     token_prec = ""
     etat=0
     chunk=""
+    coupe=0
     for token in res:
         token_min=token.strip("“")
         if token_prec in ["","!","?",".",":",","]:
+            coupe=1
             token_min=token_min.lower()
         pos=dico.get(token_min,0)
         if pos !=0:
             #print(token,pos)
             if etat==0:
-                print(chunk,"\n")
-                chunk=token
-            if etat==1:
-                chunk+=" "+token
+                coupe=1
             etat=1
         else:
-            chunk+=" "+token
             etat=0
-        #print(token,etat)
+        if (coupe==0):
+            chunk+=" "+token
+        else:
+            print(chunk,"\n")
+            chunk=token
+        coupe=0
         token_prec=token_min
     #print(line)
 
