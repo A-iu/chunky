@@ -46,5 +46,4 @@ for line in fileinput.input():
             chunk=token
         coupe=0
         token_prec=token_min
-    #print(line)
-
+    print(chunk,"\n")
