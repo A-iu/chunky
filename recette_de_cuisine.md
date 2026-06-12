@@ -6,11 +6,11 @@ https://www.cs.upc.edu/~padro/Unixforpoets.pdf
 - à la main !
 texte_base.txt => texte_sans_maj
 
-## Étape 2 : on fait la liste des chunks (pas trop en fait)
+## Étape 2 : on fait la liste des tokens sans la ponctuation
 - on vire les virgules, les guillemets, les points
 tr -d ',".“”!:'  < texte_sans_maj.txt > texte_sans_ponctuation
 
-- on ajoute un espace après le d', l' etc. (puisqu'autorisé dans le lexique)
+- on ajoute un espace après le d', l' etc. (puisqu'autorisés dans le lexique)
 sed 's/’/’ /g' texte_sans_ponctuation > texte_avec_espace_apostrophe
 
 - on ajoute un espace avant et après -t- (puisqu'autorisé dans le lexique)
