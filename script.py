@@ -28,7 +28,7 @@ for line in fileinput.input():
     coupe=0
     for token in res:
         token_min=token.strip("“")
-        if token_prec in ["","!","?",".",":",","]:
+        if token_prec in ["","!","?",".",":",",","»"]:
             coupe=1
             token_min=token_min.lower()
         pos=dico.get(token_min,0)
